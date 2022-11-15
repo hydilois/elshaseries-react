@@ -14,9 +14,7 @@ function Portfolio() {
           </div>
           <div className="filter-menu">
             <ul id="control" className="list-filter list-unstyled">
-              <li className="active" data-filter="all">
-              {translation[language].all}
-              </li>
+              <li className="active" data-filter="all">{translation[language].all}</li>
               <li data-filter="1">{translation[language].web}</li>
               <li data-filter="2">{translation[language].mobile}</li>
             </ul>
@@ -41,9 +39,9 @@ function Portfolio() {
                     >
                       <i className="fa fa-search-plus"></i>
                     </a>
-                    <h4 className="item-title">Project Title</h4>
+                    <h4 className="item-title">SchoolLab</h4>
                     <div className="item-category">
-                      <span>Web Design</span>
+                      <span>Application Web</span>
                     </div>
                   </div>
                 </div>
@@ -116,9 +114,9 @@ function Portfolio() {
                     >
                       <i className="fa fa-search-plus"></i>
                     </a>
-                    <h4 className="item-title">Project Title</h4>
+                    <h4 className="item-title">La Main Levée</h4>
                     <div className="item-category">
-                      <span>Web Design</span>
+                      <span>Application Web</span>
                     </div>
                   </div>
                 </div>

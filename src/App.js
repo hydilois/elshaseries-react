@@ -71,8 +71,8 @@ function App() {
                 <Skills />
                 <Portfolio />
                 <Facts />
-                <Testimonials />
-                <Blog />
+                {/* <Testimonials /> */}
+                {/* <Blog /> */}
                 <Contact />
                 <Footer />
                 <ScrollToTop />
