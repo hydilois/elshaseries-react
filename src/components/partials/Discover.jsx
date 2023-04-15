@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { languageContext } from "../../contexts/languageContext";
 import translation from "../../translation";
 
@@ -17,9 +18,9 @@ function Discover() {
                 Dévelopeur <span></span>
               </p>
               <div className="my-btn">
-                <Link to="#contact" className="main-btn">
+                <HashLink to="#contact" className="main-btn">
                 {translation[language].contact_me}
-                </Link>
+                </HashLink>
               </div>
             </div>
           </div>

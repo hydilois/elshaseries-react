@@ -19,7 +19,7 @@ function Services() {
                                 <i className="fa fa-pencil fa-lg"></i>
                             </div>
                             <h4>{translation[language].web_developpment}</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
+                            <p>{translation[language].web_developpment_content}</p>
                             <div className="service-number">01.</div>
                         </div>
                     </div>
